@@ -4,6 +4,8 @@ import HabitInput from './components/AddHabit';
 import Header from './components/Header';
 import HabitsList from './components/HabitsList';
 import DateSelector from './components/DateSelector';
+import useHabits from './components/hooks/UseHabits';
+import { getDateString } from './components/utils/DateUtils';
 
 export default function App() {
   const { habits, addHabit, deleteHabit, toggleHabitCompletion } = useHabits();

@@ -1,3 +1,5 @@
+import HabitCard from './HabitCard';
+
 export default function HabitsList({ habits, selectedDate, onDeleteHabit, onToggleCompletion }) {
   if (habits.length === 0) {
     return (

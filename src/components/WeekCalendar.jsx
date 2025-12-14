@@ -1,3 +1,5 @@
+import { getDateString } from './utils/DateUtils';
+import DayCell from './DayCell';
 export default function WeekCalendar({ habit, last7Days }) {
   const today = getDateString(new Date());
 

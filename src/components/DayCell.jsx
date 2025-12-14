@@ -1,6 +1,5 @@
+import { Check } from "lucide-react";
 export default function DayCell({ label, completed, isToday }) {
-  const { Check } = require('lucide-react');
-  
   return (
     <div className="flex-1 text-center">
       <div className="text-xs text-gray-500 mb-1">{label}</div>

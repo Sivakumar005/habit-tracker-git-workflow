@@ -1,5 +1,6 @@
-
+import { Trash2 } from "lucide-react";
 export default function HabitHeader({ habit, streak, onDelete }) {
+
   return (
     <div className="flex items-start justify-between mb-4">
       <div className="flex-1">

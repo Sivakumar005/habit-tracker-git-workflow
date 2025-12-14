@@ -1,3 +1,8 @@
+import { getStreak, getLast7Days } from './utils/DateUtils';
+import HabitHeader from './HabitHeader';
+import WeekCalendar from './WeekCalendar';
+import CompletionButton from './CompletionButton';
+
 export default function HabitCard({ habit, selectedDate, onDelete, onToggleCompletion }) {
   const streak = getStreak(habit);
   const last7Days = getLast7Days();
